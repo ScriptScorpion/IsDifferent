@@ -4,7 +4,7 @@
 
 bool isNumber(const std::string& s) {
     for (char c : s) {
-        if (!isdigit(c)) {
+        if (!isdigit(c)) { // checks if it is not symbol(number)
             return false;
         }
     }
